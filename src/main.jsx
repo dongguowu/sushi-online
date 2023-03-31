@@ -1,10 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import 'js/bootstrap.bundle.min.js'
-import 'js/holder.min.js'
+import './js/bootstrap.bundle.min.js'
 
-import 'css/index.css'
+import './css/index.css'
 
 import App from './App'
 

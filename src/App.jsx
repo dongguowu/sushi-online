@@ -1,13 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import React, { useState } from 'react'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div></div>
       <h1>Sushi Online</h1>
+      <input
+        className="form-control form-control-lg"
+        type="text"
+        placeholder=".form-control-lg"
+        aria-label=".form-control-lg example"
+      />
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
