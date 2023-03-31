@@ -213,6 +213,11 @@
   background-color: RGBA(255, 193, 7, var(--bs-bg-opacity, 1));
 }
 
+.text-bg-sushi {
+  color: #000;
+  background-color: RGBA(255, 144, 2, var(--bs-bg-opacity, 1));
+}
+
 .text-bg-danger {
   color: #fff;
   background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1));
