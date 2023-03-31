@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Sushi Online</h1>
+      <h1 className="text-bg-sushi">Sushi Online</h1>
       <input
         className="form-control form-control-lg"
         type="text"
