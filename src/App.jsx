@@ -5,10 +5,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='App'>
+    <div className="App">
       <div></div>
       <h1>Sushi Online</h1>
-      <div className='card'>
+      <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
